@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+      <title>personal page</title>
+
+      <!-- link the webpage's stylesheet -->
+	    <link rel="stylesheet" href="/style.css" />
+
+	    <!-- link the webpage's JavaScript file -->
+	    <script src="/script.js" defer></script>
+    </head>
+
+    <body id="bodyOne">
+
+<!--GENERAL-->
+      <h1 id="ny">New York City</h1>
+
+
+<!--NAV BAR-->
+      <nav>
+        <ul>
+          <li>
+            <a class="nav1 href="index.html">home</a>
+          </li>
+          <li>
+            <a class="nav1" href="attractions.html">attractions</a>
+          </li>
+          <li>
+            <a class="nav1" href="page.html">page</a>
+          </li>
+          <li>
+            <a class="nav1" href="about.html">about</a>
+          </li>
+        </ul>
+      </nav>
+
+<!--TEXT-->
+      <h1>page</h1>
+      <h3 style="color:black"> my personal favs cause i'm biased ofc...</h3>
+
+
+<!-- Container for the image gallery -->
+<div class="container">
+
+  <!-- Full-width images with number text -->
+  <div class="mySlides">
+    <div class="numbertext">1 / 6</div>
+      <img src="1.png" style="width:90%;">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">2 / 6</div>
+      <img src="2.jpg" style="width:90%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">3 / 6</div>
+      <img src="3.jpg" style="width:90%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">4 / 6</div>
+      <img src="4.jpg" style="width:90%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">5 / 6</div>
+      <img src="5.jpg" style="width:90%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">6 / 6</div>
+      <img src="6.jpg" style="width:90%">
+  </div>
+
+  <!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlides(-1)" style="color:black">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)" style="color:black">&#10095;</a>
+
+  <!-- Image text -->
+  <div class="caption-container">
+    <p id="caption"></p>
+  </div>
+
+  <!-- Thumbnail images -->
+  <div class="row">
+    <div class="column">
+      <img class="demo cursor" src="1.png" style="width:100%" onclick="currentSlide(1)" alt="Juniper Valley Park">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="2.jpg" style="width:100%" onclick="currentSlide(2)" alt="Rcokaway Beach">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="3.jpg" style="width:100%" onclick="currentSlide(3)" alt="Citi Field">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="4.jpg" style="width:100%" onclick="currentSlide(4)" alt="The Shops at Atlas Park">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="5.jpg" style="width:100%" onclick="currentSlide(5)" alt="Muse Paintbar">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="6.jpg" style="width:100%" onclick="currentSlide(6)" alt="Gantry Plaza State Park">
+    </div>
+  </div>
+</div>
+
+      <h3 style="color:black;margin-top:3em;">and if you ever want to read this masterpiece...</h3>
+
+      <div class="container-fluid bg-1 align-items-center" >
+      <iframe style="border:5px; border-style:outset; border-color:white; padding:10px;" src="essay.html" height="1380"width="780"></iframe>
+    </div>
+
+<!--FOOTER-->
+<div class="footer">
+    <div class="footerThings">
+    <footer>new york city<br>manhattan<br>queens</footer>
+    </div>
+
+    <div class="footerThings">
+    <footer>brooklyn<br>bronx<br>staten island</footer>
+    </div>
+
+    <div class="footerThings">
+    <footer><a href="https://personal-site-christinejiang.christinej598.repl.co/"><img src="logo.png"></a></footer>
+  </div>
+</div>
+    </body>
+</html>
